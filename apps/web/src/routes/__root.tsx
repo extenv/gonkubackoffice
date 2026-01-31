@@ -1,7 +1,11 @@
-import { HeadContent, Outlet, createRootRouteWithContext } from "@tanstack/react-router";
+import {
+  HeadContent,
+  Outlet,
+  createRootRouteWithContext,
+  redirect,
+} from "@tanstack/react-router";
 import { TanStackRouterDevtools } from "@tanstack/react-router-devtools";
 
-import Header from "@/components/header";
 import { ThemeProvider } from "@/components/theme-provider";
 import { Toaster } from "@/components/ui/sonner";
 
@@ -14,11 +18,11 @@ export const Route = createRootRouteWithContext<RouterAppContext>()({
   head: () => ({
     meta: [
       {
-        title: "gonkubackoffice",
+        title: "Gonku BackOffice",
       },
       {
         name: "description",
-        content: "gonkubackoffice is a web application",
+        content: "Gonku BackOffice is a web application",
       },
     ],
     links: [
@@ -41,12 +45,12 @@ function RootComponent() {
         storageKey="vite-ui-theme"
       >
         <div className="grid grid-rows-[auto_1fr] h-svh">
-          <Header />
+          {/*<Header />*/}
           <Outlet />
         </div>
         <Toaster richColors />
       </ThemeProvider>
-      <TanStackRouterDevtools position="bottom-left" />
+      {/*<TanStackRouterDevtools position="bottom-left" />*/}
     </>
   );
 }

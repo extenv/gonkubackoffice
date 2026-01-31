@@ -1,6 +1,6 @@
 # gonkubackoffice
 
-This project was created with [Better-T-Stack](https://github.com/AmanVarshney01/create-better-t-stack), a modern TypeScript stack that combines React, TanStack Router, and more.
+This project was created with a modern TypeScript stack that combines React, TanStack Router, and more.
 
 ## Features
 

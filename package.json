@@ -23,6 +23,7 @@
   "dependencies": {
     "@gonkubackoffice/env": "workspace:*",
     "dotenv": "catalog:",
+    "lucide-react": "^0.563.0",
     "zod": "catalog:"
   },
   "devDependencies": {
