@@ -1,0 +1,3 @@
+{
+  "extends": "@gonkubackoffice/config/tsconfig.base.json"
+}
