@@ -7,7 +7,6 @@ This project was created with a modern TypeScript stack that combines React, Tan
 - **TypeScript** - For type safety and improved developer experience
 - **TanStack Router** - File-based routing with full type safety
 - **TailwindCSS** - Utility-first CSS for rapid UI development
-- **shadcn/ui** - Reusable UI components
 - **Turborepo** - Optimized monorepo build system
 
 ## Getting Started
